@@ -2,12 +2,21 @@ html {
     overflow-y: scroll;
     
 }
+
 body {
-    background-color:white;
+    background-color: #FFFFFF;
    
 }
+
+table.table1 {
+    margin-left:auto; 
+    margin-right:auto;   
+  }
 .container {
-    background-color: 	#E6E6E6;
+    background-color: 	#FFFFFF;
+}
+#whitespace {
+    height: 50px;
 }
 
 h1 {
@@ -22,17 +31,6 @@ form {
     font-family: 'Droid Serif', 'serif'; 
 }
 
-button {
-  border: solid 1px;
-  color: #eee;
-  border-radius:5px;
- -moz-border-radius:5px;
-  background: -moz-linear-gradient(top, #5E5E5E 0%, #474747 51%, #0a0e0a 51%, #0a0809 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5E5E5E), color-stop(51%,#474747), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809));
-}
-button:hover {
-  color: white;
-}
 
 td.space {
     width:100px;
@@ -120,9 +118,25 @@ div.side {
 #teams {
     text-align: center;
 }
-#team12 {
-    text-align: center;
+#leagueNow {
+    font-size:large;
 }
+
+#team1 {
+    font-size:large;
+    
+}
+#team2 {
+    font-size:large;
+    
+}
+
+#team12 {
+    
+    text-align: center;
+    height: 100px;
+}
+
 .footer {
     text-align: center;
 }
