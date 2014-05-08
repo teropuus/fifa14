@@ -1,10 +1,13 @@
+html {
+    overflow-y: scroll;
+    
+}
 body {
     background-color:white;
-
+   
 }
 .container {
     background-color: 	#E6E6E6;
-    
 }
 
 h1 {
@@ -13,6 +16,7 @@ h1 {
 }
 h3 {
     font-family: 'PT Sans', 'sans-serif';
+   
 }
 form {
     font-family: 'Droid Serif', 'serif'; 
@@ -101,5 +105,24 @@ td.eight {
     background-color: white;
 }
 div.side {
+    text-align: center;
+}
+#otsikko {
+    text-align: center;
+}
+
+#players {
+    text-align: center;  
+    
+}#leagues {
+    text-align: center;
+}
+#teams {
+    text-align: center;
+}
+#team12 {
+    text-align: center;
+}
+.footer {
     text-align: center;
 }

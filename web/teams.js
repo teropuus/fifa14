@@ -5,7 +5,7 @@ $(function() {
     $('#myModal').modal('hide');
      var chosenLeague = $('form input:checked').val();
      document.getElementById("leagueNow").innerHTML = chosenLeague;
-
+     
     });
 });
 
@@ -23,7 +23,11 @@ function randomLeague() {
     var array = document.getElementsByName('league');
     var randomNumber = Math.floor(Math.random() * 36);
 
-    array[randomNumber].checked = true;
+    array[randomNumber].checked = true; 
+    
+    var chosenLeague = $('form input:checked').val();
+     document.getElementById("leagueNow").innerHTML = chosenLeague;
+    
 }
 
 function chooseFunctio() {
