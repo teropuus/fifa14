@@ -1,11 +1,20 @@
+@media screen and (max-width: 767px){
+  #players {margin-top: 150px;}
+}
+@media screen and (max-width: 768px){
+  #players {margin-top: 150px;}
+}
+@media screen and (max-width: 992px){
+  #players {margin-top: 150px;}
+}
+
+@media screen and (min-width: 1200px){
+  
+}
+
 html {
     overflow-y: scroll;
     
-}
-
-body {
-    background-color: #FFFFFF;
-   
 }
 
 table.table1 {
@@ -13,7 +22,7 @@ table.table1 {
     margin-right:auto;   
   }
 .container {
-    background-color: 	#FFFFFF;
+    background: white;
 }
 #whitespace {
     height: 50px;
@@ -92,7 +101,7 @@ td.seven {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background-color: white;
+    backgroucnd-color: white;
 }
 
 td.eight {
