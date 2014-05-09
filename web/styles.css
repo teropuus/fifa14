@@ -16,17 +16,21 @@ html {
     overflow-y: scroll;
     
 }
+body {
+    background: #FCFFF5;
+}
 
 table.table1 {
     margin-left:auto; 
     margin-right:auto;   
   }
 .container {
-    background: white;
+    background: #D1DBBD;
 }
 #whitespace {
     height: 50px;
 }
+
 
 h1 {
     font-family: 'PT Serif', 'serif';
@@ -53,7 +57,7 @@ td.one {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background: #CCCCCC;
+    background: #91AA9D;
 }
 
 td.two {
@@ -61,7 +65,7 @@ td.two {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background: #CCCCCC;
+    background: #91AA9D;
 }
 
 td.three {
@@ -69,7 +73,8 @@ td.three {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background-color: white;
+    background: #FCFFF5;
+    
 }
 
 td.four {
@@ -77,7 +82,8 @@ td.four {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background-color: white;
+    background: #FCFFF5;
+    
 }
 
 td.five {
@@ -85,7 +91,7 @@ td.five {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background-color: #CCCCCC;
+    background-color: #91AA9D;
 }
 
 td.six {
@@ -93,7 +99,7 @@ td.six {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background-color: #CCCCCC;
+    background-color: #91AA9D;
 }
 
 td.seven {
@@ -101,7 +107,8 @@ td.seven {
     height:100px;
     border-style:solid;
     border-width:5px;
-    backgroucnd-color: white;
+    background: #FCFFF5;
+    
 }
 
 td.eight {
@@ -109,13 +116,14 @@ td.eight {
     height:100px;
     border-style:solid;
     border-width:5px;
-    background-color: white;
+    background: #FCFFF5;
 }
 div.side {
     text-align: center;
 }
 #otsikko {
     text-align: center;
+    
 }
 
 #players {
